@@ -1,0 +1,26 @@
+{
+    "name": "dydro/pivotaltracker",
+    "description": "An API wrapper for the Pivotal Tracker API (V5)",
+    "keywords": ["pivotal tracker", "pivotal", "tracker"],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Dydro LLC.",
+        "email": "team@dydro.com",
+        "homepage": "http://dydro.com"
+    }, {
+        "name": "Troy McCabe",
+        "email": "troy@dydro.com"
+    }],
+    "autoload": {
+        "psr-0": {
+            "Dydro\\PivotalTracker\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "guzzle/guzzle": "3.7.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
